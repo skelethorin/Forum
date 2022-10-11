@@ -1,0 +1,48 @@
+/* <----------- Colors ----------> */
+
+:root {
+
+    /*Color mode HSL(hue, saturation, lightness)*/
+
+    --first-color: hsl(89deg 45% 40%);
+    --title-color: #fff;
+    --text-color: hsl(228, 8%, 50%);
+    --body-color: hsl(207deg 30% 12%);
+    --container-color: hsl(207deg 30% 12%);
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: .938rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* <-------------- Base ------------> */
+
+body {
+    position: relative;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.blocks {
+    display: flex;
+    align-items: baseline;
+}
+
+/* <------------- Header ----------> */
+
+
+
