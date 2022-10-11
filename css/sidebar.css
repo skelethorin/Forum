@@ -159,3 +159,9 @@
       zoom: 2.5;
     }
   }
+
+  .sidebar-line {
+    height: 2px;
+    width: 100%;
+    background: hsl(205deg 23% 16%);
+  }
