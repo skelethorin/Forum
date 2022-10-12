@@ -42,7 +42,97 @@ a {
     align-items: baseline;
 }
 
+/* <------------- Middle Block ----------> */
+
+.middle {
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 100%;
+}
+
+
+/* <------------- Search ----------> */
+
+.input {
+
+}
+
+.search {
+    padding: 0.5em 0.5em 0.5em 1em;
+    background: hsl(207deg 27% 19%);
+    border-radius: 7px;
+}
+
+.search-term {
+outline: none;
+    border: none;
+    background: none;
+    font-family: unset;
+    font-weight: 500;
+    font-size: 0.8em;
+    color: var(--text-color);
+}
+
+.search-button {
+    font-size: 1.25em;
+    color: #fff;
+    background: none;
+    border: none;
+    margin-right: 0.5em;
+    margin-top: 0.3em;
+}
+
+.search-flex {
+    display: flex;
+}
+
 /* <------------- Header ----------> */
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.profile-count {
+    display: flex;
+    align-items: center;
+}
 
+.profile-count i {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.profile-count i:hover {
+    font-size: 1.5em;
+    color: var(--first-color);
+    transition: .5s;
+}
+
+.profile-count i:active {
+    font-size: 1.5em;
+    color: var(--first-color);
+}
+
+.profile-count i:nth-child(1) {
+    font-size: 1.5em;
+}
+
+.profile-count i:nth-child(2) {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.profile-photo {
+    width: 3em;
+    border-radius: 50%;
+    margin-left: 2em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.profile-photo:hover {
+    box-shadow: 0px 0px 10px var(--first-color);
+    transition: .5s;
+}
