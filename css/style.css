@@ -173,7 +173,7 @@ outline: none;
     padding: 3em;
     background: hsl(207deg 27% 19%);
     border-radius: 15px;
-    width: 70%;
+    width: 95%;
     margin-top: 2em;
 }
 
@@ -196,6 +196,7 @@ outline: none;
 
 .welcome-description {
     margin-top: 1em;
+    width: 90%;
 }
 
 .calendar {
@@ -306,4 +307,33 @@ outline: none;
 
 .threads-time {
     font-size: 0.9em;
+}
+
+/* <------------- community forums ----------> */
+
+.cf-title {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.cf-title-text {
+    margin-left: 1em;
+    color: var(--title-color);
+}
+
+.cf-tags {
+    display: flex;
+    margin-top: 1em;
+}
+
+.tags-count {
+    padding: 0.5em 2em;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    margin-right: 1em;
+}
+
+.tags-name {
+    color: var(--title-color);
 }
