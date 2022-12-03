@@ -45,8 +45,9 @@ a {
 /* <------------- Middle Block ----------> */
 
 .middle {
-    padding-left: 3em;
+    padding-left: 20em;
     padding-right: 3em;
+    padding-top: 2rem;
     width: 100%;
 }
 

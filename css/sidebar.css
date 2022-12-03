@@ -84,10 +84,11 @@
       left: 0;
       background-color: var(--container-color);
       box-shadow: 2px 0 0px hsl(205deg 23% 16%);
-      width: 84px;
+      width: 255px;
       height: 100vh;
       padding: 2rem;
       transition: .3s;
+      position: fixed;
     }
 
     .nav_logo {
