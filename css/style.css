@@ -352,11 +352,15 @@ outline: none;
     color: var(--title-color);
 }
 
+.cf-topics {
+    margin-top: 1em;
+}
+
 .cf-topics-count {
     padding: 1em 1em;
     display: flex;
     background: #23323e;
-    margin-top: 2em;
+    margin-top: 1em;
     border-radius: 10px;
     justify-content: space-between;
     width: 95%;
@@ -375,14 +379,53 @@ outline: none;
     display: flex;
 }
 
-.cf-topics-icon {
+.cf-topics-icon-1 {
     padding: 1em 1.5em;
     border-radius: 10px;
     margin-right: 1em;
+    background: #0084ff;
 }
 
-.cf-topics-icon {
+.cf-topics-icon-2 {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    margin-right: 1em;
+    background: #70b01f;
+}
+
+.cf-topics-icon-3 {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    margin-right: 1em;
+    background: #7a5dec;
+}
+
+.cf-topics-icon-4 {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    margin-right: 1em;
+    background: #ef742d;
+}
+
+.cf-topics-icon-5 {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    margin-right: 1em;
+    background: #70b01f;
+}
+
+.cf-topics-icon-6 {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    margin-right: 1em;
     background: #0084ff;
+}
+
+.cf-topics-icon-7 {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    margin-right: 1em;
+    background: #7a5dec;
 }
 
 .cf-topic-name {
@@ -402,4 +445,8 @@ outline: none;
 
 .forum-type {
     font-weight: 400;
+}
+
+.fa-solid {
+    color: #fff;
 }
