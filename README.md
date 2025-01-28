@@ -17,4 +17,4 @@ Designer: https://dribbble.com/wesleyryan
 
 The purpose of this project is to inspire new projects by bringing together design and coding skills and to offer the beauty of design to those who enjoy coding.
 
-![enter image description here](https://cdn.dribbble.com/users/2054799/screenshots/15102149/media/df9428a6ee7f685bb2609050eaeba49a.png?resize=1000x750&vertical=center)
+![7b79d61fb0067f1fb3fd1f9991ec9ebf](https://github.com/user-attachments/assets/20d76ad8-1ca5-474b-9751-a699b1286f9d)
